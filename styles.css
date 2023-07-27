@@ -1,0 +1,245 @@
+.table1{
+    border: 5px solid rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    width: 430px;
+}
+
+.table2{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 450px;
+}
+
+.style1{
+    background-color: rgb(237, 94, 94);
+    width: 500px;
+    border: 5px solid rgb(254, 0, 0);
+}
+
+
+/*=================================================================================================*/
+/*TABLE 3*/
+
+.registrarse {
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 10px;
+    width: 750px;
+    background-color: white;
+    padding: 2%;
+}
+.registrarse button{
+    border-radius: 7px;
+    background-color: rgb(24, 151, 10);
+    border: 5px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;}
+
+.registrarse input{
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registrarse label{
+    font-size: 20px;
+}
+
+
+/*RIGHT EMAIL PASSWORD ConfirmPassword*/
+
+.right{
+    font-size: 20px;
+    position: relative;
+    left: 850px;
+    top: -350px;
+}
+
+.right input{
+    position: relative;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.right label{
+    font-size: 20px;
+    position: relative;
+}
+
+
+/*=================================================================================================*/
+
+/*CELL*/
+.table2{
+    padding: 2%;
+}
+
+.cell label{
+    width: 100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.cell input{
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cell button {
+    border-radius: 7px;
+    background-color: rgb(3, 129, 255);
+    border: 5px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;
+}
+
+/*=================================================================================================*/
+
+/*CHECKBOX*/
+.checkbox input{
+    position: relative;
+    top: -77px;
+    right: 100px;
+}
+
+.checkbox label{
+    position: relative;
+    top: -77px;
+    right: 100px;
+}
+
+/*=================================================================================================*/
+
+/*SIGN UP*/
+
+.signup {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup table {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.signup a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/*========================================================================================================*/
+
+/*WELCOME*/
+
+.welcome{
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.welcome p{
+    font-size: 20px;
+}
+
+/*========================================================================================================*/
+
+/*HOME*/
+
+.menu-items {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-items .uno {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 300px; 
+}
+
+.menu-items .dos {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.menu-items .tres {
+    display: inline-block;
+    margin-left: 550px;
+}
+
+.menu-items a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.options{
+    background-color: #336BEA;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.another-cell{
+    font-size: 15px;
+}
+
+.another-table{
+    border: 2px solid black;
+    border-radius: 45px;
+    padding: 10px;
+}
+
+
+/*========================================================================================================*/
+
+/*YOUR-PROFILE*/
+
+.profile{
+    border: 5px solid black;
+    border-radius: 150px;
+    margin-left: 80px;
+    background-color: white;
+}
+
+.datos{
+    font-size: 30px;
+    padding: 50px;
+}
+
+
+/*========================================================================================================*/
+
+/*LOG-OUT*/
+
+.logout{
+    color: white;
+}
+
+.logout button{
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+}

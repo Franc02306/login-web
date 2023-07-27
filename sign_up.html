@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign_up</title>
+</head>
+<body bgcolor="908B8B">
+    <div class="celda">
+        <br>
+        <table align="center" class="registrarse">
+            <form action="add_data.php" method="post">
+                <tr>
+                    <td align="center">
+                        <img src="imagenes/sign_up.png" alt="signup" height="50" width="50" >
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <h1>SIGN UP</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="firstname">First Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="fname" id="firstname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lastname">Last Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="lname" id="lastname" required>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <label for="user">Username</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="username" id="user" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <button type="submit">Sign up</button>
+                    </td>
+                </tr>
+                </table>
+                <table class="right">
+                <tr>
+                    <td>
+                        <label for="mail">E-mail</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="email" id="mail" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass1">Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="password1" id="pass1" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="passc">Confirm Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="password2" id="passc" required>
+                    </td>
+                </tr>
+                </table>
+        </form>
+    </div>
+</body>
+</html>

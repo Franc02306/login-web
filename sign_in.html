@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign_in</title>
+</head>
+<body bgcolor="908B8B">
+    <div class="cell">
+        <br>
+        <table align="center" class="table2" bgcolor="FFFFFF">
+            <form action="validation.php" method="post">
+                <tr>
+                    <td align="center">
+                        <img src="imagenes/signin.jpg" alt="icono_inicio" height="50" width="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <h1>SIGN IN</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <label for="user">Username or Email address</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="text" name="username" id="user" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <label for="pass">Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="password" name="password" id="pass" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <br>
+                        <button type="submit">Sign in</button>
+                    </td>
+                </tr>        
+        </table>
+    </div>
+    <div class="checkbox">
+        <table align="center">
+            <tr>
+                <td colspan="2">
+                    <br>
+                    <input type="checkbox" name="check" id="box">
+                    <label for="box" >Remember credentials</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    <div class="signup">
+        <table>
+            <tr>
+                <td colspan="2" align="center">
+                    <label for="ask">New around here? <a href="sign_up.html"> Sign up now </a></label>
+                </td>
+            </tr> 
+        </table>
+    </div>
+</body>
+</html>

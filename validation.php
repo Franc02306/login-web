@@ -11,7 +11,7 @@ $i = 0;
 
 while($db[$i] && !$validado){
     $campo = explode("|", $db[$i]);
-    if(($_POST["username"] == $campo[2]) && ($_POST["password"] == $campo[4])){
+    if(($_POST["username"] == $campo[2] || $campo[3]) && ($_POST["password"] == $campo[4])){
         $validado = true;
     }else{
         

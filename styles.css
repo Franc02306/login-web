@@ -157,6 +157,7 @@
 .welcome{
     border: 2px solid black;
     padding: 50px;
+    background-color: white;
 }
 
 .welcome p{
@@ -216,10 +217,15 @@
 
 /*YOUR-PROFILE*/
 
-.profile{
-    border: 5px solid black;
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid black;
     border-radius: 150px;
-    margin-left: 80px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
     background-color: white;
 }
 
